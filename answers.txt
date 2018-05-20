@@ -1,0 +1,79 @@
+Q.1- What is an access token? Generate your access token for any API.(for example Twitter,Spotify etc).
+
+An access token is an object that describes the security context of a process or thread. The information in a token includes the identity and privileges of the user account associated with the process or thread. When a user logs on, the system verifies the user's password by comparing it with information stored in a security database. If the password is authenticated, the system produces an access token. Every process executed on behalf of this user has a copy of this access token.
+
+The system uses an access token to identify the user when a thread interacts with a securable object or tries to perform a system task that requires privileges. Access tokens contain the following information:
+
+* The security identifier (SID) for the user's account
+* SIDs for the groups of which the user is a member
+* A logon SID that identifies the current logon session
+* A list of the privileges held by either the user or the user's groups
+* An owner SID
+* The SID for the primary group
+* the default DACL that the system uses when the user creates a securable object * without specifying a security descriptor
+* The source of the access token
+* Whether the token is a primary or impersonation token
+* An optional list of restricting SIDs
+* Current impersonation levels
+* Other statistics
+
+
+//I GENERATED ACCESS TOKEN FOR FACEBOO API, USING FOLLOWING STEPS:
+
+open facebook developers>>> tools>>>graph API explorer
+
+click on get Access Token>> select permissions >> click on get access token
+
+login when askded for >> copy the access token
+
+//my access token that i generated was:
+                                                   
+EAACEdEose0cBANHM0r1ZAp6K9AURAnzNjIHvMRNcZAp3MRUfmq##################################################eids246aExZCHlpP1xmbmoYu77pbWm3eNSDfniZBZCOaxLr3jeYe3VzNdCbnecBppvW0d6NYPdlqOX3b7jZBMCTHZAM4XGyG0DsUW2SqP4dYgZDZD
+
+// I also generated a personal access token from my GitHub developer settings: 
+          
+d6fd60a7e4#######################37c0286
+
+
+Q.2- Get the IP address of some common sites like Google, Facebook by using DNS lookup.
+
+google.com: 216.58.196.206
+facebook.com: 157.240.13.35
+acadview.com: 52.37.66.135
+github.com: 192.30.253.112
+spotify.com: 104.199.64.136
+
+
+
+Q.3- Using Tweepy library try to extract tweets from Twitter.
+
+
+
+Q.4- What is a difference between library and API . Figure it out with examples.
+
+A Library is a chunk of code that you can call from your own code, to help you do things more quickly/easily. 
+For example, a Bitmap Processing library will provide facilities for loading and manipulating bitmap images, saving you having to write all that code for yourself.A library performs specific, well-defined operations.
+
+An API (application programming interface) is a term meaning the functions/methods in a library that you can call to ask it to do things for you - the interface to the library.
+An API is an interface for other programs to interact with your program without having direct access.
+A web API is collection of web urls which is a bridge between two applications.
+
+Example:  Scrapy is a library in Python. If you are involved in webscraping then this is a must have library for you.
+
+Example:  NumPy is a library in Python. It provides some advance math functionalities to python.
+
+Example: OLA using Google Maps API for navigation
+
+Example : Amazon : Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more released its API so that Web site developers could more easily access Amazon's product information. Using the Amazon API, a third party Web site can post direct links to Amazon products with updated prices and an option to "buy now."
+
+
+Q.5- Try to access Spotify API . Find out some library for it and play some music.
+
+Spotify is not Available currently for Indian Users.
+However, I signed up using Great Britain Proxy.
+My username is 1ssuv6ezm4gfxn32zmtzrf3ps
+
+
+
+
+
